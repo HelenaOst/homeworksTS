@@ -30,7 +30,7 @@ let coursesAndDurationArray3 = [
     { title: 'FullStack', monthDuration: 7 },
     { title: 'Frontend', monthDuration: 4 }
 ];
-for (const course of coursesAndDurationArray) {
+for (const course of coursesAndDurationArray3) {
     let courseDIV = document.createElement('div');
     courseDIV.classList.add('item');
     document.body.appendChild(courseDIV);
