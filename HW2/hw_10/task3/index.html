@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    form{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border:  1px solid black;
+      width:  200px;
+      padding:  20px;
+      gap:  10px;
+    }
+  </style>
+</head>
+<body>
+<form name="myForm">
+  <label for="userName">Ім'я</label>
+  <input type="text" name="name" id="userName">
+  <label for="userSurname">Прізвище</label>
+  <input type="text" name="surname" id="userSurname">
+  <label for="userAge">Вік</label>
+  <input type="number" name="age" id="userAge">
+  <button type="submit" id="button">Надіслати</button>
+</form>
+
+<script src="main.ts"></script>
+</body>
+</html>

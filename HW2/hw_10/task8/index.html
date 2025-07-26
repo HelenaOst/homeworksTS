@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<h1>creating a table</h1>
+<form name='table'>
+    <input type='number' name='input' id='cells' placeholder='number of cells'>
+    <input type='number' name='input' id='rows' placeholder="number of rows">
+    <input type='text' name='input' id='contents' placeholder='content'>
+    <button type='submit'>Create</button>
+</form>
+<table></table>
+<script src="main.ts"></script>
+</body>
+</html>
